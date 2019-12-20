@@ -21,6 +21,7 @@ github已有很多天大中文的毕业论文模板，所以要想用比较符�
 
 ---------------
 字号，行间距，缩进等修改请参考IEEEtran_HOWTO.pdf
+
 模板没有对IEEEtran.cls修改（patchcmd很好用）
 
 IEEE模板有很多样式，journal， conference等，可以更改第一行\documentclass参数来修改，参考IEEEtran_HOWTO.pdf（比如conference的页码就在底部）
