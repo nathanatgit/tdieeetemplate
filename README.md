@@ -2,16 +2,17 @@
 
 这个不是天大毕业论文模板
 
-这个不是天大毕业论文模板
-
-这个不是天大毕业论文模板
-
-
 Github已有很多天津大学毕业论文模板
 
 如有需要请自行搜索
 
 -----------------------
+
+实验报告、大作业等适用
+
+带天津大学Logo的封面
+
+正文整体风格基于IEEE Transaction模板
 
 英文内容+天大封皮：TDReportTemplate.tex
 
@@ -25,12 +26,6 @@ Github已有很多天津大学毕业论文模板
 
 ![image](https://user-images.githubusercontent.com/20399271/141797599-5797a8d3-5105-4306-acbb-218a591195b6.png)
 
-
-实验报告、大作业等适用
-
-带天津大学Logo的封面
-
-正文整体风格基于IEEE Transaction模板
 
 ---------------
 字号，行间距，缩进等修改请参考IEEEtran_HOWTO.pdf （原版IEEE Trans模板及说明文件在IEEETran_Original文件夹内）
