@@ -59,20 +59,19 @@
   \quad
   
   \vspace{1cm}
-
   \includegraphics[width=7cm]{./logo/TDFonts.eps}
-  \vspace{1cm}
+  \vspace{2cm}
 
 
   {
   \fontfamily{phv}
   \fontsize{24}{30}
-  \selectfont \textbf{SAMPLE TITLE HERE}
+  \selectfont \textbf{示\ 例\ 标\ 题}
   }
 
-  \vspace{1cm}
+  \vspace{2cm}
   \includegraphics[width=5.5cm]{./logo/TDLogo.eps}
-  \vspace{5cm}
+  \vspace{4cm}
 
   %% ** Warning::
   %% ** The following \songti control sequence only works on Windows, Linux and mac platform please comment it out
@@ -96,107 +95,92 @@
   \setcounter{page}{0}
   \clearpage
 
-\title{\textbf{SAMPLE TITLE}}
-
-%%　Author information 
-% \author{Michael~Shell,~\IEEEmembership{Member,~IEEE,}
-%         John~Doe,~\IEEEmembership{Fellow,~OSA,}
-%         and~Jane~Doe,~\IEEEmembership{Life~Fellow,~IEEE}% <-this % stops a space
-% }
-
-
-% \thanks{M. Shell was with the Department
-% of Electrical and Computer Engineering, Georgia Institute of Technology, Atlanta,
-% GA, 30332 USA e-mail: (see http://www.michaelshell.org/contact.html).}% <-this % stops a space
+\title{\textbf{示例标题}}
 
 
 %% This section changes the Footer and Header of page
-\markboth{页眉示例}% even 
-{页眉示例} % odd
+\markboth{页眉示例文字}% even 
+{}
 \maketitle
-
-%% Abstract here if you want write abstract, comment it out.
-% \begin{abstract}
-%   The abstract goes here.
-% \end{abstract}
-
-%% Keyword, comment out before use.
-% \begin{IEEEkeywords}
-%   IEEE, IEEEtran, journal, \LaTeX, paper, template.
-% \end{IEEEkeywords}
 
 \patchcmd{\section}{\centering}{\raggedright}{}{} % Change default IEEE template centering section title to align left
 \patchcmd{\section}{\normalsize}{\large\bfseries}{}{} % Change Title to large Boldface
 
 \section{绪论}
 
-"The Islands of Tahiti are a mythical destination and these islands are a universe where dreams meet reality." These attracting descriptions draws the attention into research.\cite{populationref}.
+本文档内容风格基准为IEEE Transaction投稿风格。
+
+日薄花房绽，风和麦浪轻。夜来微雨洗郊埛。正是一年春好、近清明。已改煎茶火，犹调入粥饧。使君高会有余清。此乐无声无味、最难名。\cite{populationref}.
 
 \begin{figure}[!h]
 	\centering
-	\subfloat[Tahiti's Location on Earth]{
+	\subfloat[图片副标题]{
 		\includegraphics[height=5cm]{figures/tahitiloc.png}
 		\label{tahitiloc}}
 	\quad
-	\subfloat[Tahiti from space]{
+	\subfloat[图片副标题]{
     \includegraphics[height=5cm]{figures/tahitinear.png}
 		\label{tahitinear}}
 	\quad
-	\caption{Tahiti's Location}
+	\caption{示例并排图片}
 	\label{tahitilocation}
 \end{figure}
 
+\section{正文部分1}
+
+此为一级标题。
+
 \subsection{二级标题}
 
-Subsection goes here. Sample Text.
-
-The island is 45 km (28 mi) across at its widest point and covers an area of 1,045 km2 (403 sq mi). The highest peak is Mont Orohena (2,241 m (7,352 ft)). Mount Roonui, or Mount Ronui (Mou'a Rōnui), in the southeast rises to 1,332 m (4,370 ft). The island consists of two roughly round portions centered on volcanic mountains and connected by a short isthmus named after the small town of Taravao, which is situated there \cite{tahitiworldatlas}.
+莫听穿林打叶声。何妨吟啸且徐行。竹杖芒鞋轻胜马。谁怕？一蓑烟雨任平生。料峭春风吹酒醒。微冷。山头斜照却相迎。回首向来萧瑟处。归去。也无风雨也无晴。\cite{tahitiworldatlas}.
 
 \begin{figure}[!h]
   \centering
   \includegraphics[height=6cm]{figures/TahitiMooreaMap.png}
-  \caption{Tahiti Moorea Map}
+  \caption{示例图片}
   \label{tmmap}
 \end{figure}
 
 \subsubsection{三级标题}
 
-Sub-subsection goes here, sample text.
-
-Sample text.
+世事一场大梦，人生几度秋凉。夜来风叶已鸣廊，看取眉头鬓上。酒贱常愁客少，月明多被云妨。中秋谁与共孤光，把盏凄然北望。
 
 \subsubsection{三级标题}
 
-Sub-subsection goes here, sample text.
+回首乱山横。不见居人只见城。谁似临平山上塔，亭亭。迎客西来送客行。归路晚风轻。一枕初寒梦不成。今夜残灯斜照处，荧荧。秋雨晴时泪不晴。
 
-Sample text.
+\section{正文部分2}
 
-\section{一级标题}
-
-Another Sample Section.
+江汉西来，高楼下、蒲萄深碧。犹自带、岷峨雪浪，锦江春色。君是南山遗爱守，我为剑外思归客。对此间、风物岂无情，殷勤说。江表传，君休读。狂处士，真堪惜。空洲对鹦鹉，苇花萧瑟。独笑书生争底事，曹公黄祖俱飘忽。愿使君、还赋谪仙诗，追黄鹤。
 
 \section{结论}
 
-Conclusion goes here.
+缥缈危楼紫翠间。良辰乐事古难全。感时怀旧独凄然。璧月琼枝空夜夜，菊花人貌自年年。不知来岁与谁看。
 
 %% Switch back default alignment of IEEE Template section title
 \patchcmd{\section}{\raggedright}{\centering}{}{}
 \patchcmd{\section}{\normalsize}{\large\bfseries}{}{}
 
 \appendices
-\section{Proof of the First Zonklar Equation}
-Appendix one text goes here.
+\section{附录标题}
+不适用请注释。
 
 % % you can choose not to have a title for an appendix
 % % if you want by leaving the argument blank
-\section{}
-Appendix two text goes here.
+\section{第二个附录}
+不适用请注释。
 
 
 % % use section* for acknowledgment
 \section*{致谢}
 
-The authors would like to thank...
+夜饮东坡醒复醉，归来仿佛三更。家童鼻息已雷鸣，敲门都不应，倚杖听江声。
+
+长恨此身非我有，何时忘却营营。夜阑风静縠纹平。小舟从此逝，江海寄余生。
+
+\ 
+
+\raggedleft{——《临江仙·夜归临皋》}
 
 \ifCLASSOPTIONcaptionsoff
   \newpage
@@ -210,14 +194,6 @@ The authors would like to thank...
 % argument is your BibTeX string definitions and bibliography database(s)
 \bibliography{IEEEabrv,ref}
 
-%% Photos of Author, Comment out if you want add your personal information.
-% \begin{IEEEbiography}{Michael Shell}
-% Biography text here.
-% \end{IEEEbiography}
-
-% \begin{IEEEbiographynophoto}{Jane Doe}
-% Biography text here.
-% \end{IEEEbiographynophoto}
 
 \end{document}
 
