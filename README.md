@@ -35,7 +35,7 @@ Github已有很多天津大学毕业论文模板
 ---------------
 字号，行间距，缩进等修改请参考IEEEtran_HOWTO.pdf （原版IEEE Trans模板及说明文件在IEEETran_Original文件夹内）
 
-模板没有对IEEEtran.cls修改（适用patchcmd覆盖）
+模板没有对IEEEtran.cls修改（部分格式修改使用patchcmd覆盖）
 
 IEEE模板有很多样式，journal， conference等，可以更改第一行\documentclass参数来修改，参考IEEEtran_HOWTO.pdf（比如conference的页码就在底部）
 
