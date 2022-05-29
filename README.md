@@ -14,9 +14,15 @@ Github已有很多天津大学毕业论文模板
 
 正文整体风格基于IEEE Transaction模板
 
+主要文件：
+
 英文内容+天大封皮：TDReportTemplate.tex
 
 中文内容+天大封皮：TDReportTemplate_CN_TITLE.tex
+
+模板风格文件：IEEEtran.cls
+
+参考文献bibtex：ref.bib
 
 英文示例：
 
